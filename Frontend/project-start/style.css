@@ -1,0 +1,112 @@
+body {
+    margin: auto 0;
+}
+
+.zone {
+    /* padding: 30px 50px;
+    margin: 40px 60px; */
+    cursor: pointer;
+    /* display: inline-block; */
+    color: #FFF;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 0.8em;
+
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.6em;
+        padding: 0;
+    }
+}
+
+.cover {
+    width: 50%;
+}
+
+.box>img {
+    width: 80%;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+}
+
+.box {
+    background-color: #444;
+    padding: 100px;
+    margin: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.zone:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.box:hover {
+    transform: rotate(-7deg);
+}
+
+.green {
+    background: #56B870;
+}
+
+
+.red {
+    background: white;
+}
+
+
+.yellow {
+    background: #F3AAAA;
+}
+
+
+.blue {
+    background: #7abcff;
+}
+
+
+.info {
+    display: grid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5em;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}

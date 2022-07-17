@@ -1,0 +1,45 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+  }
+html{
+    background-color: #1d0118;
+}
+.pic{
+    background-color: white;
+    border-radius: 3%;
+    padding: 15px;
+}
+.text {
+    font-size: 32px;
+    margin: 32px;
+    color: #1d0118;
+  }
+.main{
+      margin: 30px;
+      box-shadow:.4em .4em 2em #05381c;
+      padding: 10px;
+  }
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1.5%;
+    height: 650px;
+  }
+.child {
+    display: grid;
+    grid-gap: 1.5%;
+  }
+.child div {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #009c82;
+  }
+.child div:hover {
+    padding: 20px; 
+    color: white;
+    cursor: pointer;
+    background-color: #2dc0a8;
+  }
+  

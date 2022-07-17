@@ -1,0 +1,39 @@
+nav{
+    font-size: 2rem;
+    background: cyan;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    flex: auto;
+    text-align: center;
+}
+li:hover{
+    background: grey;
+    color: white;
+}
+
+
+@media screen and ( max-width:800px ) {
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+

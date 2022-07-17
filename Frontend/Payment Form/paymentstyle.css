@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 30px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px ;
+    border: 1px solid liquid;
+    border-radius: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textare{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+fieldset{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.mainheading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: rgb(84, 221, 191);
+    color: darkblue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+input[ type="submit"]:hover{
+    background-color: darkgreen;
+}
+
+div#layer1{
+    position: absolute;
+    background-color: aqua;
+    top: 8px;
+    left: 8px;
+    width: 250px;
+    height: 120px;
+    border: 1px solid blueviolet;
+    border: blueviolet;
+    padding: 5px;
+}
+div#layer2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 250px;
+    height: 120px;
+    border: 1px sold blueviolet;
+    padding: 5px;
+    background-color: rgb(17, 0, 255);
+    border: blueviolet;
+}
+
+div#layer3{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 160px;
+    border: 1px solid blueviolet;
+    background-color: rgb(53, 255, 13);
+    border: blueviolet;
+    padding: 5px;
+}
+
+
+

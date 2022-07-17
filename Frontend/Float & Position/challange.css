@@ -1,0 +1,41 @@
+html{
+    background: rgb(41, 0, 51);
+}
+body{
+    background: white;
+    position: relative;
+    margin: 3% 3%;
+    height: 550px;
+    width: 1250px;
+}
+
+.Room1 , .Washroom2 , .Room2 , .Room3{
+     height: 200px;
+     width: 200px;
+     background: lightskyblue;
+     position: absolute;
+}
+
+
+.Hall{
+    height: 200px;
+    width: 200px;
+    background: lightskyblue;
+   position:absolute;
+   top: 30%;
+   right: 10%;
+}
+
+.Washroom2{
+    bottom:0%;
+    left: 0%;
+}
+.Room3{
+    right:0%;
+    bottom: 0%;
+}
+
+.Room2{
+    right: 0%;
+    top: 0%;
+}

@@ -1,0 +1,59 @@
+/* https://grid.malven.co/ */
+
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 10em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    align-content: center;
+    /* grid-template-columns: auto 1fr; and write 2 emoji in first 11index*/
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+
+}
+
+.editColumn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    /* grid-column: 1/5;  (start no/end no) end -1 signifes the end and (span 3)span across 3 column*/
+    grid-row: 3;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.green {
+    background: #56B870;
+}
+
+.red {
+    background: #C655BE;
+}
+
+.yellow {
+    background: #F3AAAA;
+}
+
+.blue {
+    background: #7abcff;
+}
+
+.purple {
+    background: #A88BEB;
+}
+
+.brown {
+    background: #f6e6b4;
+
+}

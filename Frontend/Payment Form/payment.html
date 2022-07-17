@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="paymentstyle.css">
+    <style>
+        .clip-circle{
+            clip-path: polygon(11% 2%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 0, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+            width: 10ch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <img src="https://miro.medium.com/max/1400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" class="clip-circle">
+            <h1 class="mainheading">Payment Here</h1>
+            <p>Required infomation are followed by * </p>
+            <a href="mailto:rahulneha@likeher.com">Rahul Kumar</a>
+            <hr>
+            <h2>>User Information</h2>
+            
+            <p>Name* 
+                <input type="test" regular name="name" placeholder="One Parkas" >
+            </p>
+            <p>
+                <fieldset><legend>Gender* </legend>
+                    
+                    Male<input type="radio" name="gender" value="" required>
+                    Female<input type="radio" name="gender" value= "" required>
+                </fieldset>
+            </p>
+            <p>Address*  :  <textarea name="address" id="address" cols="80" row="10"required placeholder="Gurgaon,Haryana,India"  ></textarea> </ p>
+            <p>Email*  :  <input type="email" name="email" id="email" required placeholder="Oabcd@gmail.com"  > </p>
+            <p>Pincode*  : <input type="number" name="pincode" id="pincode" required placeholder="122006" > </p>
+            <h2>Payment Information</h2>
+            <p>Card Type*  :
+                <select  required >  
+                    <option value="" >  >--Seclect a Card Type--<</ </option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Master Card</option>
+                    <option value="rupay">RuPay</option>
+                </select>
+            </p>
+            <p>
+                Card Number*  <input type="number" name="number" id="number" required placeholder="NNNNNNNNN" >
+            </p>
+            <p>
+                Expiration Date*  : <input type="date" name="date" id="date" required  placeholder="dd/mm/yy" >  
+            </p>
+            <p>
+                CVV*  : <input  type="password" name="cvv" id="cvv" required placeholder="NNN" >
+            </p>
+            <input type="submit" value="Pay Now" required>
+
+
+
+
+
+        </form>
+
+
+        <div id="layer1">
+            Example to code
+        </div>
+        <div id="layer2">
+            Example to code 
+        </div>
+        <div id="layer3" > Example to code </div>
+
+
+    </div>    
+    
+</body>
+</html>

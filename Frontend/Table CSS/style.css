@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(15, 11, 32);
+}
+
+table , th , td{
+    border-bottom: 3px solid rgb(0, 225, 255);
+    border-top: 3px solid yellow;
+    border-collapse: collapse;
+    height: 35px;
+}
+table{
+    width: 85%;
+    border:3px solid rgb(0, 0, 0);
+    box-shadow: 20px 20px 15px 10px rgba(0, 0, 0, 0.877);
+}
+table th{
+    height: 55px;
+    background-color: rgb(70, 255, 147);
+    font-size: 30px;
+}
+tr td{
+    font-size: 20px;
+}
+
+
+/*Alignment*/
+td{
+    text-align: center;
+}
+
+table{
+margin: 100px;
+}
+
+table td{
+    padding: 0px;
+    background: coral;
+}

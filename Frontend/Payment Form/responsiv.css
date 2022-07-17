@@ -1,0 +1,65 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
+*{
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+    color:red
+}
+#main{
+
+    text-align: center;
+}
+.box{
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+    border: 10%;
+    border-radius: 20px;
+    color: rgb(231, 227, 218);
+    background-color: black;
+}
+@media all  and (max-width:320px){
+    .box{
+        width: 45%;
+        padding:10px;
+        margin:2px;
+        float: left;
+    }
+}
+@media all and (max-width:520px) and (min-width:321px){
+    .box{
+        align-content: center;
+        width: 35%;
+        padding: 15px;
+        float: left;
+        margin: 2px;
+    }
+}
+@media all and (max-width:720px) and (min-width:521px){
+    .box{
+        width: 65%;
+        padding: 25px;
+        margin: 5px;
+        float: left ;
+    }
+}
+@media all and (max-width:920px) and (min-width:721px){
+    .box{
+        width: 80%;
+        padding: 30px;
+        margin: 5px;
+        float: none ;
+    }
+}
+@media all and (max-width:1120px) and (min-width:921px){
+    .box{
+        width: 100%;
+        padding: 40px;
+        margin: 5px;
+        float: none ;
+    }
+}
